@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+  <servlet-name>CheckUrlServlet</servlet-name>
+  <servlet-class>com.java.admin.CheckUrlServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>CheckUrlServlet</servlet-name>
+  <url-pattern>/checkUrl</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+  <servlet-name>ForgetPasswordServlet</servlet-name>
+  <servlet-class>com.java.admin.ForgetPasswordServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>ForgetPasswordServlet</servlet-name>
+  <url-pattern>/forgetPassword</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+  <servlet-name>LoadAdminServlet</servlet-name>
+  <servlet-class>com.java.admin.LoadAdminServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>LoadAdminServlet</servlet-name>
+  <url-pattern>/loadAdmin</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+  <servlet-name>LoginServlet</servlet-name>
+  <servlet-class>com.java.admin.LoginServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>LoginServlet</servlet-name>
+  <url-pattern>/login</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+  <servlet-name>ResetPasswordServlet</servlet-name>
+  <servlet-class>com.java.admin.ResetPasswordServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>ResetPasswordServlet</servlet-name>
+  <url-pattern>/resetPassword</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+  <servlet-name>SaveAccountServlet</servlet-name>
+  <servlet-class>com.java.admin.SaveAccountServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>SaveAccountServlet</servlet-name>
+  <url-pattern>/saveAccount</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+  <servlet-name>SaveCategoryServlet</servlet-name>
+  <servlet-class>com.java.admin.SaveCategoryServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>SaveCategoryServlet</servlet-name>
+  <url-pattern>/saveCategory</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+  <servlet-name>SaveCompanyServlet</servlet-name>
+  <servlet-class>com.java.admin.SaveCompanyServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>SaveCompanyServlet</servlet-name>
+  <url-pattern>/saveCompany</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+  <servlet-name>SaveSubmissionServlet</servlet-name>
+  <servlet-class>com.java.admin.SaveSubmissionServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>SaveSubmissionServlet</servlet-name>
+  <url-pattern>/saveSubmission</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+  <servlet-name>AdminLogoServlet</servlet-name>
+  <servlet-class>com.java.images.AdminLogoServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>AdminLogoServlet</servlet-name>
+  <url-pattern>/adminLogo</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+  <servlet-name>AdminSubmissionServlet</servlet-name>
+  <servlet-class>com.java.images.AdminSubmissionServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>AdminSubmissionServlet</servlet-name>
+  <url-pattern>/adminSub</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+  <servlet-name>HeaderLogoServlet</servlet-name>
+  <servlet-class>com.java.images.HeaderLogoServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>HeaderLogoServlet</servlet-name>
+  <url-pattern>/headerLogo</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+  <servlet-name>HomeLogoServlet</servlet-name>
+  <servlet-class>com.java.images.HomeLogoServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>HomeLogoServlet</servlet-name>
+  <url-pattern>/homeLogo</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+  <servlet-name>ThankImageServlet</servlet-name>
+  <servlet-class>com.java.images.ThankImageServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>ThankImageServlet</servlet-name>
+  <url-pattern>/thankImage</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+  <servlet-name>CreateAdminServlet</servlet-name>
+  <servlet-class>com.java.superadmin.CreateAdminServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>CreateAdminServlet</servlet-name>
+  <url-pattern>/createAdmin</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+  <servlet-name>LoginSuperAdminServlet</servlet-name>
+  <servlet-class>com.java.superadmin.LoginSuperAdminServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>LoginSuperAdminServlet</servlet-name>
+  <url-pattern>/loginSuperAdmin</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+  <servlet-name>RedirectSuperAdminServlet</servlet-name>
+  <servlet-class>com.java.superadmin.RedirectSuperAdminServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>RedirectSuperAdminServlet</servlet-name>
+  <url-pattern>/create</url-pattern>
+ </servlet-mapping>
+
+ <servlet>
+  <servlet-name>ChoosenCompanyServlet</servlet-name>
+  <servlet-class>com.java.user.ChoosenCompanyServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>ChoosenCompanyServlet</servlet-name>
+  <url-pattern>/choosenCompany</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+  <servlet-name>ContactUsServlet</servlet-name>
+  <servlet-class>com.java.user.ContactUsServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>ContactUsServlet</servlet-name>
+  <url-pattern>/contactUs</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+  <servlet-name>LoadFormServlet</servlet-name>
+  <servlet-class>com.java.user.LoadFormServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>LoadFormServlet</servlet-name>
+  <url-pattern>/loadForm</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+  <servlet-name>LoadThankServlet</servlet-name>
+  <servlet-class>com.java.user.LoadThankServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>LoadThankServlet</servlet-name>
+  <url-pattern>/loadThank</url-pattern>
+ </servlet-mapping>
+ 
+<servlet>
+  <servlet-name>NearestCompanyServlet</servlet-name>
+  <servlet-class>com.java.user.NearestCompanyServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>NearestCompanyServlet</servlet-name>
+  <url-pattern>/nearestCompany</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+  <servlet-name>RedirectUrlServlet</servlet-name>
+  <servlet-class>com.java.user.RedirectUrlServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>RedirectUrlServlet</servlet-name>
+  <url-pattern>/redirectUrl</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+  <servlet-name>WriteFormServlet</servlet-name>
+  <servlet-class>com.java.user.WriteFormServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>WriteFormServlet</servlet-name>
+  <url-pattern>/writeForm</url-pattern>
+ </servlet-mapping>
+
+ 
+ <context-param>
+    <param-name>host</param-name>
+    <param-value>smtp.gmail.com</param-value>
+  </context-param>
+  <context-param>
+    <param-name>port</param-name>
+    <param-value>587</param-value>
+  </context-param>
+  <context-param>
+    <param-name>user</param-name>
+    <param-value>notifysg@gmail.com</param-value>
+  </context-param>
+  <context-param>
+    <param-name>pass</param-name>
+    <param-value>yestifysg</param-value>
+  </context-param>
+ 
+<welcome-file-list>
+	<welcome-file>home.jsp</welcome-file>
+</welcome-file-list>
+
+<error-page>
+    <error-code>404</error-code>
+    <location>/error.jsp</location>
+</error-page> 
+	
+ <servlet>
+  <servlet-name>SystemServiceServlet</servlet-name>
+  <servlet-class>com.google.api.server.spi.SystemServiceServlet</servlet-class>
+  <init-param>
+   <param-name>services</param-name>
+   <param-value/>
+  </init-param>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>SystemServiceServlet</servlet-name>
+  <url-pattern>/_ah/spi/*</url-pattern>
+ </servlet-mapping>
+</web-app>

@@ -1,0 +1,8 @@
+Notify is a responsive web application in a mobile platform used for users to send notification to companies regarding environmental hazards found in respective company’s building.
+
+The application is a simple form for users to report a hazardous situation (e.g. water leakages, dustbins with flys, etc.) and the company/building owners from the respective departments will be informed to handle the situation. There is even a web platform for company/building owners to adjust or give additional requirements to the user’s form. After the user submits the form, a QR code or digital voucher may be given which acts as an incentive for users to continue using the application.
+
+The application uses twitter bootstrap as a UI platform and is coded using html, java and javascript. The database use in supporting the application is MySQL.
+
+Application link:
+www.notifysg.com
